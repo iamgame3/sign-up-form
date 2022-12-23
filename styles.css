@@ -1,0 +1,46 @@
+html {
+    height: 952px;
+}
+
+body {
+    height: 952px;
+}
+
+.container {
+    display: inline-flex;
+    height: 952px;
+}
+
+.side-photo {
+    max-height: 100vh;
+}
+
+.image-container {
+    position: relative;
+    max-width: fit-content;
+}
+
+.image-credit {
+    position: absolute;
+    bottom: 8px;
+    left: 128px;
+}
+
+.logo-background {
+    background-color: #000000;
+    min-width: 128px;
+    opacity: 0.3;
+    position: absolute;
+    top: 128px;
+}
+
+.opening-text,
+.opening-text-cta {
+    font-size: 32px;
+    font-weight: 900;
+    margin-left: 32px;
+}
+
+.opening-text {
+    margin-top: 128px;
+}
