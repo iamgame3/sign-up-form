@@ -1,3 +1,8 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
 a {
     color: rgb(255, 255, 255);
 }
@@ -29,17 +34,26 @@ a {
 .odin-logo {
     opacity: 1;
     width: 15%;
+    height: 100%;
 }
 
 .logo-background {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: rgb(0, 0, 0, 0.5);
     position: absolute;
     width: 100%;
     top: 128px;
     padding-top: 16px;
     padding-bottom: 16px;
+}
+
+.brand-name {
+    font-family: norse-bold, Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    margin: 0;
 }
 
 .opening-text,
