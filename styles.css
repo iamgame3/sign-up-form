@@ -1,14 +1,6 @@
-html {
-    height: 952px;
-}
-
-body {
-    height: 952px;
-}
-
 .container {
-    display: inline-flex;
-    height: 952px;
+    display: flex;
+    max-height: 100vh;
 }
 
 .side-photo {
