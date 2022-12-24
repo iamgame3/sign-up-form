@@ -28,29 +28,31 @@
         </div>
         <div class="sign-up-form">
             <p class="form-opening">Enter your information:</p>
-            <div class="form-container">
-                <div class="text-input">
-                    <label for="fname">FIRST NAME</label>
-                    <input id="fname" name="fname" type="text" /></div>
-                <div class="text-input">
-                    <label for="lname">LAST NAME</label>
-                    <input id="lname" name="lname" type="text" /></div>
-                <div class="text-input">
-                    <label for="email">EMAIL</label>
-                    <input id="email" name="email" type="email" placeholder="joeshmo@example.com" /></div>
-                <div class="text-input">
-                    <label for="telnum">PHONE NUMBER</label>
-                    <input id="telnum" name="telnum" type="tel" /></div>
-                <div class="text-input">
-                    <label for="pass">PASSWORD</label>
-                    <input id="pass" name="pass" type="password" /></div>
-                <div class="text-input">
-                    <label for="conpass">CONFIRM PASSWORD</label>
-                    <input id="conpass" name="conpass" type="password" /></div>
-                        </div>
-            </div>
+            <form action="./index.html" method="get">
+                <div class="form-container">
+                    <div class="text-input">
+                        <label for="fname">FIRST NAME*</label>
+                        <input id="fname" name="fname" type="text" required /></div>
+                    <div class="text-input">
+                        <label for="lname">LAST NAME</label>
+                        <input id="lname" name="lname" type="text" /></div>
+                    <div class="text-input">
+                        <label for="email">EMAIL*</label>
+                        <input id="email" name="email" type="email" placeholder="joeshmo@example.com" required /></div>
+                    <div class="text-input">
+                        <label for="telnum">PHONE NUMBER</label>
+                        <input id="telnum" name="telnum" type="tel" /></div>
+                    <div class="text-input">
+                        <label for="pass">PASSWORD*</label>
+                        <input id="pass" name="pass" type="password" required /></div>
+                    <div class="text-input">
+                        <label for="conpass">CONFIRM PASSWORD*</label>
+                        <input id="conpass" name="conpass" type="password" required /></div>
+                            </div>
+                </div>
         <div class="submit-section">
-            <button>Create Account</button> <!-- Jk, this button does nothing -->
+            <button>Create Account</button>
+        </form>
             <p class="small-text">Already have an account? <a class="body-link" href="./index.html">Log in</a></p>
         </div>
     </div>
