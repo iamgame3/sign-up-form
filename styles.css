@@ -7,6 +7,7 @@
 
 body {
     --special-interaction-color: rgb(39, 97, 255);
+    --error-color: rgb(255, 0, 0);
 }
 
 a {
@@ -164,5 +165,10 @@ button:active {
 }
 
 input:invalid {
-    border: 1px solid rgb(255, 0, 0);
+    border: 1px solid var(--error-color);
+}
+
+input:focus-visible {
+    outline: none;
+    border: 1px solid var(--special-interaction-color);
 }
