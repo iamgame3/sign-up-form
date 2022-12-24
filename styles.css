@@ -60,7 +60,6 @@ a {
 
 .opening-text,
 .opening-text-cta {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 32px;
     font-weight: 700;
     margin-left: 64px;
@@ -72,18 +71,31 @@ a {
 }
 
 .form-opening {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 32px;
-    margin-top: 64px;
+    margin: 0;
 }
 
 .main-body {
     background-color: rgb(250, 250, 250);
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .sign-up-form {
     padding-left: 64px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 8px 8px 0px rgb(204, 204, 204);
+}
+
+label {
+    font-weight: 100;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+value,
+placeholder {
+    font-weight: 300;
 }
