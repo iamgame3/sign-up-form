@@ -12,4 +12,4 @@ addEventListener('click', () => {
         pass.setCustomValidity('');
         conpass.setCustomValidity('');
     }
-})
+});

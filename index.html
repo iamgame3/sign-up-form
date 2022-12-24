@@ -41,7 +41,7 @@
                         <input id="email" name="email" type="email" placeholder="joeshmo@example.com" required /></div>
                     <div class="text-input">
                         <label for="telnum">PHONE NUMBER</label>
-                        <input id="telnum" name="telnum" type="tel" /></div>
+                        <input id="telnum" name="telnum" type="tel" placeholder="123-456-7890" pattern="^\d{3}-\d{3}-\d{4}$" oninvalid="this.setCustomValidity('Phone number does not match requested format. Ex. 123-456-7890')" oninput="this.setCustomValidity('')" /></div>
                     <div class="text-input" id="pass-input">
                         <label for="pass">PASSWORD*</label>
                         <input id="pass" name="pass" type="password" required />
